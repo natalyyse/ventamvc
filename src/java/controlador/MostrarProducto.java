@@ -13,7 +13,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-@WebServlet(name = "MostrarProducto", urlPatterns = {"/"})
+@WebServlet(name = "MostrarProducto", urlPatterns = {"/MostrarProducto"})
 public class MostrarProducto extends HttpServlet {
 
     private String jdbcURL = "jdbc:mysql://localhost:3306/ventas";

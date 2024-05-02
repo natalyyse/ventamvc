@@ -1,0 +1,70 @@
+body {
+    background-color: #f4f4f4; /* Color de fondo suave */
+    color: #333; /* Color de texto principal */
+    font-family: Arial, sans-serif; /* Fuente predeterminada */
+}
+
+.container {
+    margin-top: 30px; /* Menor espacio superior */
+    padding: 20px; /* Añadir relleno al contenedor */
+    background-color: background; /* Fondo blanco */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+h1 {
+    font-size: 2rem; /* Tamaño de encabezado ligeramente reducido */
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff; /* Azul brillante */
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden; /* Ocultar bordes redondeados en contenido */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd; /* Línea divisoria más suave */
+}
+
+.no-productos {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #888; /* Color de texto gris */
+}
+
+.volver {
+    display: inline-block; /* Alinear en línea con el texto */
+    margin-top: 20px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease; /* Transición de color suave */
+}
+
+.volver:hover {
+    color: #0056b3; /* Color más oscuro al pasar el mouse */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Azul brillante */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff; /* Texto blanco */
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar el mouse */
+}
